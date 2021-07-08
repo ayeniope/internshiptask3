@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{ 
+    padding: 100px 350px; 
+    font-weight: bold;
+    color: white;
+    background: url(image.jpg)no-repeat;
+}
+.container{
+    position: relative;;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 50px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid white;   
+}
+#counter{
+    color: green;
+    font-size: 80px;
+}
+button{
+    color: rgb(255, 250, 250);
+    background: rgb(6, 6, 87);
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px; 
+}
+@media(max-width:375px){
+html{
+        font-size: 12px;
+}
+button{
+    font-size: 9px;
+    padding: 3px;
+}
+#counter{
+    font-size: 30px;
+}
+.container{
+    padding:20px;
+    width: 150px;
+}
+button{
+    padding: 8px;
+    margin: 5px;
+}
