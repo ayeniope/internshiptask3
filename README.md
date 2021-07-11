@@ -9,4 +9,6 @@
 
 ### What I learnt
 This is my first project on javascript.I was able to learn the right javascript syntax when using eventlisteners and If statement.
+
+Link to my live Project: https://ayeniope.github.io/internshiptask3/
  
